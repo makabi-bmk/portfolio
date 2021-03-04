@@ -77,12 +77,12 @@ li {
 
 .section-heading {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .section-lead {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .text-bold {
@@ -125,7 +125,7 @@ li {
   position: relative;
   margin-bottom: 30px;
   padding: 0 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .logo-title {
@@ -138,7 +138,7 @@ li {
 .logo-subtitle {
   font-size: 20px;
   margin-top: 5px;
-  text-align: center;
+  text-align: left;
   letter-spacing: .2em;
 }
 
@@ -231,7 +231,7 @@ li {
 }
 
 .works-body {
-  text-align: center;
+  text-align: left;
 }
 
 .works-title {
@@ -437,22 +437,26 @@ li {
 /*--------------------------------
  Contact
 ---------------------------------*/
+.contact-section .inner {
+  max-width: 1000px;
+}
+
 .contact-list {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .contact-item {
   width: 50px;
   margin: 0 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-text {
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 /*--------------------------------
