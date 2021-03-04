@@ -310,6 +310,10 @@ li {
   margin-bottom: 20px;
 }
 
+#name {
+  font-size: 18px;
+}
+
 /*--------------------------------
  Carrier
 ---------------------------------*/
@@ -342,6 +346,7 @@ li {
 }
 
 .carrier-title {
+  font-size: 18px;
   color: #7697A0;
 }
 
@@ -450,7 +455,7 @@ li {
 
 .contact-item {
   width: 50px;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
   text-align: left;
 }
 
