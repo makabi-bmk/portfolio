@@ -72,6 +72,7 @@ li {
   line-height: 1;
   margin-bottom: 15px;
   letter-spacing: .05em;
+  color: #7697A0;
 }
 
 .section-heading {
@@ -192,7 +193,7 @@ li {
   transition: .3s;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #333;
+  background-color: #D5E0DC;
 }
 
 .gnav-link:hover:after {
@@ -208,6 +209,11 @@ li {
 /*--------------------------------
  Works
 ---------------------------------*/
+
+.works-section .inner {
+  max-width: 1000px;
+}
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -255,7 +261,7 @@ li {
 /*--------------------------------
  Feature
 ---------------------------------*/
-.feature-item {
+/* .feature-item {
   display: flex;
   flex-wrap: wrap;
 }
@@ -271,7 +277,7 @@ li {
 
 .feature-body p:not(:last-child) {
   margin-bottom: 20px;
-}
+} */
 
 /*--------------------------------
  About
@@ -333,6 +339,10 @@ li {
 
 .carrier-body p:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.carrier-title {
+  color: #7697A0;
 }
 
 /*--------------------------------
