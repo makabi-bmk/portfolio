@@ -404,7 +404,8 @@ li {
 }
 
 .skill-title {
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .skill-title2 {
@@ -506,6 +507,7 @@ li {
 }
 
 .copyright {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 10px;
   text-align: center;
   color: var(--letter-color);
@@ -669,7 +671,6 @@ li {
   }
 
   .skill-title {
-    margin-top: 30px;
     text-align: left;
     font-size: 30px;
   }
